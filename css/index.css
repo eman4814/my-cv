@@ -1,0 +1,96 @@
+.nav-body{
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+}
+.nav-left{
+    width: 20%;
+    /* border: 1px solid grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 5px;
+}
+.left-icon{
+    /* border: 1px solid grey; */
+    /* box-sizing: border-box; */
+    /* border-radius: 50%; */
+    width: 100%;
+    margin-top: 20px;
+    /* display: inline-flex; */
+    text-align: center;
+}
+
+.left-icon img{
+    /* border: 1px solid grey; */
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 50%;
+    height: 100%;
+    object-fit:cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-user{
+    /* border: 1px solid grey; */
+    width:100%;
+}
+
+.left-user h1{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.left-user p{
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.left-menu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.left-menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.left-menu ul li button{
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.nav-right{
+    width: 80%;
+    padding: 20px;
+    /* border: 1px solid grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+  
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  }
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .glyphicon-user:before {
+    content: "\e008";
+  }
